@@ -1,3 +1,4 @@
+/* #CSS-1 */
 .quick-view-btn-extension {
   position: absolute;
   bottom: 100px;
@@ -16,6 +17,34 @@
   z-index: 1000;
   font-size: 14px;
 }
+
+/* Another UI for the button, more suitable as coloring  If you wanna test it, Just comment #CSS-1 and uncomment #CSS-2 */
+/* 
+/* #CSS-2 */
+.quick-view-btn-extension {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  background-color: #66b5c299;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  opacity: 0;
+  z-index: 1000;
+  font-size: 14px;
+  bottom: 0px;
+  width:100%;
+  height:35px;
+  
+} */
+
+
+
 
 .quick-view-btn-extension:hover {
   background-color: #ff0000;
